@@ -45,7 +45,9 @@
 
 
 // Yahoo baba YT
-
+for(var i = 1; i <=5; i++){
+    console.log("For Loop: " + i);
+}
 
 
 
