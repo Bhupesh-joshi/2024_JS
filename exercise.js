@@ -25,3 +25,9 @@ let array2 = ["item3", "item4"];
 
 let sumOfArrays = [...array1, ...array2];
 console.log(sumOfArrays);
+
+
+let a = ["arr1", "arr2"];
+let b = ["arr3", "arr4"];
+let sum = [...a, ...b];
+console.log(sum);

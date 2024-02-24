@@ -31,4 +31,3 @@ let newArr2 = [...newArr1];
 console.log(newArr1 === newArr2);
 console.log(newArr1);
 console.log(newArr2);
-
