@@ -7,3 +7,7 @@ while(i <= 10){
     i++;
     console.log(i);
 }
+while(i <= 10){
+    i++;
+    console.log(i);
+}
