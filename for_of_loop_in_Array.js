@@ -7,7 +7,7 @@ for(let i of arr){
 }
 
 
-// ex 2
+// ex 2 push
 
 const cars = ["alto", "BMW"];
 const car2 = ["AMG", "ferrari"];
