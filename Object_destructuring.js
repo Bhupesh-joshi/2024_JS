@@ -47,5 +47,4 @@ const carModel = {
 }
 
 const {car1, car2, ...restProperties} = carModel;
-
 console.log(car1, car2, restProperties)
