@@ -17,7 +17,7 @@ if(newNum.has(2)){
 console.log(newNum);
 
 for(nums of newNum){
-    console.log("nums", nums);
+    console.log(nums);
 }
 
 
