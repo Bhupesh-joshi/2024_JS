@@ -1,0 +1,1 @@
+console.log("store_methods_in_diff_obj");
