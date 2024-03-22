@@ -1,19 +1,8 @@
 console.log("use Prototype");
 
-const userMethods = {
-    about : function() {
-        return `${this.firstName} is ${this.age} years old`;
-    },
-    is18 : function() {
-        return this.age >= 18;
-    },
-    singh : function() {
-        return "singh Called";
-    },
-};
 
 function createUser(firstName, lastName, email, age, address){
-    const user = Object.create(userMethods);
+    const user = Object.create(createUser.prototype);
     user.firstName = firstName;
     user.lastName = lastName;
     user.email = email;
@@ -22,6 +11,17 @@ function createUser(firstName, lastName, email, age, address){
 
     return user;
 };
+
+createUser.prototype.about = function() {
+            return `${this.firstName} is ${this.age} years old`;
+        };
+createUser.prototype.is18 = function() {
+            return this.age >= 18;
+        };
+createUser.prototype.singh = function() {
+            return "singh Called";
+        };
+
 
 const user1 = createUser("Bhupesh", "Joshi", "bhupeshjoshi@gmail.com", 23, "123 st SJ, CA");
 const user2 = createUser("Ellis", "perry", "bhupeshjoshi@gmail.com", 23, "123 st NYC, NY");
