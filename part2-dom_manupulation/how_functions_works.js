@@ -9,6 +9,6 @@ function myFunction(){
 
 var firstName = "Bhupesh";
 var lastName = "Joshi";
-// var fullName = firstName + " " + lastName;
-console.log(fullName);
+var fullName = firstName + " " + lastName;
+// console.log(fullName);
 
