@@ -14,4 +14,4 @@ let ans = func();
 // console.log(ans());
 ans()
 ans()
-ans()
+// ans()
