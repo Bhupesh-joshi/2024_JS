@@ -1,10 +1,133 @@
 * {
     box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .header {
-    height: 100vh;
+    position: relative;
+    height: 60vh;
     background: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.nav {
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    width: 40%;
+    display: flex;
+    list-style-type:none;
+    justify-content: space-between;
+}
+
+.headline {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-headLine {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.todo-section {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.form-todo {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form-todo input {
+    min-height: 100%;
+}
+
+.form-todo input[type="text"] {
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-todo input[type="submit"] {
+    width: 20%;
+    background-color: #324B7D;
+    color: white;
+    font-weight: bold;
+}
+
+.section-signUp {
+    margin: 5rem auto;
+    text-align: center;
+    background-color: #324b7da4;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.signUp-form {
+    max-width: 800px;
+    width: 95%;
+    text-align: start;
+    margin: auto;
+}
+
+.signUp-form label{
+    display: block;
+}
+
+.signUp-form input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+.signUp-form textarea {
+    width: 100%;
+}
+
+.signUp-btn {
+    background-color: #324b7da4;
+    color: white;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: auto;
+    margin-top: 1rem;
 }
