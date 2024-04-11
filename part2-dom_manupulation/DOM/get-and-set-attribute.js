@@ -7,5 +7,5 @@ link.setAttribute("href", "https://bhupesh.com")
 console.log(link.getAttribute("href"));
 
 
-const inputElement = document.querySelector(".form-todo input");
-// console.log(inputElement.getAttribute("type"));
+// const inputElement = document.querySelector(".form-todo input");
+console.log(inputElement.getAttribute("type"));
