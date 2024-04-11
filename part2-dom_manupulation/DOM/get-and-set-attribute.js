@@ -1,9 +1,9 @@
 // getAttribute
 const link = document.querySelector("a");
-console.log(link.getAttribute("href"));
+// console.log(link.getAttribute("href"));
 
 // setAttribute
-// link.setAttribute("href", "https://bhupesh.com")
+link.setAttribute("href", "https://bhupesh.com")
 console.log(link.getAttribute("href"));
 
 
