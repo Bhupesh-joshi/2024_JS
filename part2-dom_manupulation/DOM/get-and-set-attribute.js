@@ -8,4 +8,4 @@ console.log(link.getAttribute("href"));
 
 
 const inputElement = document.querySelector(".form-todo input");
-console.log(inputElement.getAttribute("type"));
+// console.log(inputElement.getAttribute("type"));
