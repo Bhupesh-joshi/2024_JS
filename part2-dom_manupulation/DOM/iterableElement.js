@@ -1,2 +1,4 @@
 const navItems = document.querySelectorAll(".nav-item");
-console.log(navItems);
+console.log(navItems[0]);
+
+
