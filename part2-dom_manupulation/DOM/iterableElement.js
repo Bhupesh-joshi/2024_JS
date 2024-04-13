@@ -24,6 +24,6 @@ navItems = Array.from(navItems);
 // forEach
 navItems.forEach((navItem)=> {
     navItem.style.backgroundColor = "#FFF"
-    // navItem.style.color = "#000"
-    navItem.style.fontWeight = "bold"
+    navItem.style.color = "#000"
+    // navItem.style.fontWeight = "bold"
 })
