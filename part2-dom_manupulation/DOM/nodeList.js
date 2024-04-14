@@ -30,5 +30,5 @@ console.log(Array.isArray(navItems));
 // navItems.forEach((navItem)=> {
 //     navItem.style.backgroundColor = "#FFF"
 //     navItem.style.color = "#000"
-//     navItem.style.fontWeight = "bold"
+    navItem.style.fontWeight = "bold"
 // })
