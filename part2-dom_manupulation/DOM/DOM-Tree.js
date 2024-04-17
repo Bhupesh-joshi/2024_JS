@@ -9,12 +9,12 @@ const textNode1 = htmlElementNode.childNodes[1];
 const bodyElementNode = htmlElementNode.childNodes[2];
 console.log(headElementNode);
 console.log(textNode1);
-console.log(bodyElementNode);
+// console.log(bodyElementNode);
 
 // parent relationship
 console.log(headElementNode.parentNode);
 
 // sibling relationship
-// console.log(headElementNode.nextSibling);
+console.log(headElementNode.nextSibling);
 console.log(headElementNode.nextSibling.nextSibling);
 console.log(headElementNode.nextSibling.textContent);
