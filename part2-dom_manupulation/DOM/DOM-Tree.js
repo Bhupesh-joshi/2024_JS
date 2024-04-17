@@ -15,6 +15,6 @@ console.log(bodyElementNode);
 console.log(headElementNode.parentNode);
 
 // sibling relationship
-console.log(headElementNode.nextSibling);
+// console.log(headElementNode.nextSibling);
 console.log(headElementNode.nextSibling.nextSibling);
 console.log(headElementNode.nextSibling.textContent);
