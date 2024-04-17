@@ -8,8 +8,8 @@ const headElementNode = htmlElementNode.childNodes[0];
 const textNode1 = htmlElementNode.childNodes[1];
 const bodyElementNode = htmlElementNode.childNodes[2];
 console.log(headElementNode);
-console.log(textNode1);
-// console.log(bodyElementNode);
+// console.log(textNode1);
+console.log(bodyElementNode);
 
 // parent relationship
 console.log(headElementNode.parentNode);
