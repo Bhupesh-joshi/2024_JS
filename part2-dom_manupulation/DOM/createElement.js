@@ -33,5 +33,5 @@
 // after
 const newTodoItem = document.createElement("li");
 newTodoItem.textContent = "students";
-const todoList = document.querySelector(".todo-list");
-// todoList.after(newTodoItem);
+// const todoList = document.querySelector(".todo-list");
+todoList.after(newTodoItem);
