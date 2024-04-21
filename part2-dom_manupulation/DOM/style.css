@@ -60,8 +60,8 @@ a{
     font-size: 1rem;
     margin-top: 1rem;
     font-weight: 600;
-    /* color: #FFF; */
-    background-color: #E50914;
+    color: #FFF;
+    /* background-color: #E50914; */
 }
 
 .todo-section {
