@@ -8,6 +8,7 @@ a{
     text-decoration: none;
     color: white;
 }
+
 .header {
     position: relative;
     height: 60vh;
@@ -16,6 +17,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .container {
@@ -58,6 +60,8 @@ a{
     font-size: 1rem;
     margin-top: 1rem;
     font-weight: 600;
+    color: #FFF;
+    background-color: #E50914;
 }
 
 .todo-section {
@@ -86,10 +90,26 @@ a{
 
 .todo-list li {
     padding: 0.7rem;
-    background: #444;
-    color: turquoise;
+    /* background: #444; */
+    background: #ec1839;
+    color: white;
     margin-top: 1rem;
     text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.todo-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.todo-buttons {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .form-todo input {
@@ -101,6 +121,9 @@ a{
     padding: 0.8rem;
     font-size: 1rem;
     font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 1px solid #ec1839;
+    outline: none;
 }
 
 .form-todo input[type="submit"] {
@@ -108,6 +131,7 @@ a{
     background-color: #324B7D;
     color: white;
     font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .section-signUp {
