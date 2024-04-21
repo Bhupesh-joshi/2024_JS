@@ -61,11 +61,11 @@ a{
     margin-top: 1rem;
     font-weight: 600;
     color: #FFF;
-    /* background-color: #E50914; */
+    background-color: #E50914;
 }
 
 .todo-section {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     text-align: center;
 }
 
