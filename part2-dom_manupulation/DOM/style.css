@@ -172,6 +172,6 @@ a{
     color: white;
     padding: 1rem 2rem;
     display: inline-block;
-    margin: auto;
-    /* margin-top: 1rem; */
+    /* margin: auto; */
+    margin-top: 1rem;
 }
