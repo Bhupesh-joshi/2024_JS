@@ -154,8 +154,8 @@ a{
 }
 
 .signUp-form input{
-    display: block;
-    /* width: 100%; */
+    /* display: block; */
+    width: 100%;
     padding: 0.5rem;
 }
 
